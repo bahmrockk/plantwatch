@@ -1,0 +1,3 @@
+Pumps:
+35 --> water flows from the water reservoir to the plants
+37 --> water flows away from the plants

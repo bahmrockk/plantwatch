@@ -1,0 +1,15 @@
+[Unit]
+Description=MQTT Listener for water control
+After=network.target
+
+[Service]
+Type=simple
+# Another Type option: forking
+User=pi
+WorkingDirectory=/home/pi/plantcontrol
+ExecStart=/home/pi/plantcontrol/mqttdaemon.py
+Restart=on-failure
+# Other Restart options: or always, on-abort, etc
+
+[Install]
+WantedBy=multi-user.target
