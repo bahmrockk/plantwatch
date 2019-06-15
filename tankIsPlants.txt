@@ -1,3 +1,5 @@
-Pumps:
+Reminder: Whenever a "tank" is mentioned, it is the tank in which the plants reside, not the water reservoir.
+
+Example:
 35 --> water flows from the water reservoir to the plants
 37 --> water flows away from the plants
